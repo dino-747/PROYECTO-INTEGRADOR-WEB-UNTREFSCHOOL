@@ -1,0 +1,23 @@
+.header {
+	display: flex;
+	width: 100vw;
+	flex-wrap: wrap;
+}
+.header .nav {
+	width: 100vw;
+	background-color: darkolivegreen;
+}
+.header .nav li {
+	display: inline-block;
+	padding: 15px 10px;
+}
+.header .img-ini {
+	text-align: center;
+}
+.header .img-ini img {
+	width: 100vw;
+	height: 300px;
+}
+.header .img-ini h1 {
+	position: absolute;
+}
