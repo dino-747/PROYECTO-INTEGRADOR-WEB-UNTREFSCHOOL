@@ -100,23 +100,32 @@
 
 .section-3 {
   display: flex;
-  width: 80vw;
-  height: 430px;
+  margin-top: 1%;
 }
 
-.section-3 img {
-  width: 0px;
+.section-3 .img-s3 {
   flex-grow: 1;
+  width: 0px;
+  margin-top: 5%;
+}
+
+.section-3 .img-s3 img {
+  width: 50%;
+  height: 430px;
   object-fit: cover;
   opacity: 0.8;
   transition: 0.5s ease;
 }
 
-.section-3 img:hover {
+.section-3 .img-s3 img:hover {
   cursor: pointer;
   width: 300px;
   opacity: 1;
   filter: contrast(120%);
+}
+
+.section-3 .img-s3 h2 {
+  font-family: "Nunito", sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */
