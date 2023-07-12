@@ -1,0 +1,34 @@
+.section-1{
+    display: flex;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+    width: 100vw;
+    background-color: $color-2;
+} .section-1 h2{
+    font-family: $bela;
+    color: $color-4;
+    margin-right: auto;
+    margin-top: 1%;
+    width: inherit;
+}
+.section-1 .img-s1{
+    padding: 30px;
+    margin-left: 50px;
+}
+.section-1 .img-s1 img{
+    height: 300px;
+    
+}
+.section-1 .descrip{
+	width: 50vw;
+    padding: 30px;
+}
+.section-1 .descrip p{
+    font-family: $bela;
+    font-style: italic;
+    font-size: 17px;
+}
+.section-2{
+    @extend .section-1;
+    background-color: $color-1;
+}
