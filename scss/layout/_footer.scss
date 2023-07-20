@@ -1,0 +1,27 @@
+.footer{
+    background-color: $color-5;
+}
+.foot-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin-top: 1%;
+    
+}
+.foot-container h4{
+    font-family: $bela;
+    font-size: 27px;
+}
+.foot-container .redes nav{
+    margin: 20px 0;
+}
+.foot-container .redes li{
+    padding: 7px;
+}
+.foot-container .redes{
+    text-align: initial;
+}
+.foot-container .contact p{
+    margin: 20px 0;
+    padding: 5px;
+}

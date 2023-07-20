@@ -4,6 +4,7 @@
     flex-wrap: wrap;
     width: 100vw;
     background-color: $color-2;
+    padding: 10px;
 } .section-1 h2{
     font-family: $bela;
     color: $color-4;
@@ -33,27 +34,45 @@
     background-color: $color-1;
 }
 .section-3{
-    display: flex;
+    background-color: $color-2;
+    padding: 10px;
+}
+.section-3 h2{
+    font-family: $bela;
+    color: $color-4;
     margin-top: 1%;
 }
-.section-3 .img-s3{
-    flex-grow: 1;
-    width: 0px;
-    margin-top: 5%;
-}
-.section-3 .img-s3 img{
-    width: 50%;
-    height: 430px;
-    object-fit: cover;
-    opacity: .8;
-    transition: .5s ease;
-}
-.section-3 .img-s3 img:hover{
-    cursor: pointer;
-    width: 300px;
-    opacity: 1;
-    filter: contrast(120%);
-}
-.section-3 .img-s3 h2{
+.section-3 .card-body{
     font-family: $nunito;
+    font-style: italic;
+}
+.section-3 .card img{
+    height: 300px;
+}
+.section-3 .card img:hover{
+    border: 1px solid black;
+    filter: contrast(120%);
+    cursor: pointer;
+}
+.section-4{
+    background-color: $color-1;
+    padding: 10px;
+}
+.section-4 .Ultimas{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2%;
+}
+.section-4 .Ultimas .notis{
+    width: 40%;
+    border: 1px solid black;
+    padding: 15px;
+    font-family: $nunito;
+}
+.section-4 .Ultimas .notis h5{
+    font-size: 21px;
+    font-weight: bolder;
+}
+.section-4 .Ultimas .notis p{
+    font-style: italic;
 }
