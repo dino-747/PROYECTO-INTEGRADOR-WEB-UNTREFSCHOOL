@@ -19,6 +19,10 @@ li {
   flex-wrap: wrap;
 }
 
+.header .logo img {
+  height: 51px;
+}
+
 .header .nav {
   background-color: #00425a;
   width: 100vw;
@@ -28,7 +32,7 @@ li {
 .header .nav li {
   display: inline-block;
   padding: 10px 10px;
-  width: 140px;
+  width: 115px;
   font-size: 18px;
   font-family: "Nunito", sans-serif;
   height: 35px;
@@ -68,7 +72,7 @@ li {
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
-  width: 100vw;
+  width: 98.96vw;
   background-color: #1f8a70;
   padding: 10px;
 }
@@ -149,6 +153,10 @@ li {
   font-family: "Nunito", sans-serif;
 }
 
+.section-4 .Ultimas .notis a {
+  display: none;
+}
+
 .section-4 .Ultimas .notis h5 {
   font-size: 21px;
   font-weight: bolder;
@@ -182,13 +190,41 @@ li {
   padding: 7px;
 }
 
-.foot-container .redes {
-  text-align: initial;
-}
-
 .foot-container .contact p {
   margin: 20px 0;
   padding: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .header .portada {
+    height: 200px;
+  }
+  .section-1, .section-2 {
+    width: 100vw;
+  }
+  .section-1 .img-s1, .section-2 .img-s1 {
+    margin-left: 0;
+  }
+  .section-2 .img-s1 {
+    flex-direction: column-reverse;
+  }
+  .foot-container {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+  .foot-container .redes li {
+    display: inline-block;
+  }
+}
+@media screen and (max-width: 320px) {
+  /*.section-4 .Ultimas .notis p{
+      overflow: hidden;
+      max-height: 0;
+  }
+  .section-4 .Ultimas .notis p:target{
+      max-height: fit-content;
+  }*/
 }
 
 /*# sourceMappingURL=style.css.map */

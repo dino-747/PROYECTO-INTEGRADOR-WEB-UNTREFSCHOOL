@@ -2,7 +2,7 @@
     display: flex;
     justify-content:flex-start;
     flex-wrap: wrap;
-    width: 100vw;
+    width: 98.96vw;
     background-color: $color-2;
     padding: 10px;
 } .section-1 h2{
@@ -68,6 +68,9 @@
     border: 1px solid black;
     padding: 15px;
     font-family: $nunito;
+}
+.section-4 .Ultimas .notis a{
+    display: none;
 }
 .section-4 .Ultimas .notis h5{
     font-size: 21px;

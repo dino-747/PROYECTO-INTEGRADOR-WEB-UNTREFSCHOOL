@@ -1,0 +1,32 @@
+@media screen and (max-width:768px){
+    .header .portada{
+        height: 200px;
+    }
+    .section-1{
+        width: 100vw;
+    }
+    .section-1 .img-s1{
+        margin-left: 0;
+    }
+    .section-2 .img-s1{
+        flex-direction: column-reverse;
+    }
+    .foot-container{
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+    .foot-container .redes li{
+        display: inline-block;
+    }
+
+} 
+@media screen and (max-width:320px){
+    
+    /*.section-4 .Ultimas .notis p{
+        overflow: hidden;
+        max-height: 0;
+    }
+    .section-4 .Ultimas .notis p:target{
+        max-height: fit-content;
+    }*/}

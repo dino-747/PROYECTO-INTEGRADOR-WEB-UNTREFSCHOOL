@@ -3,6 +3,9 @@
 	justify-content: center;
 	flex-wrap: wrap;
 }
+.header .logo img{
+    height: 51px;
+}
 .header .nav{
 	background-color: $color-3;
 	width: 100vw;
@@ -11,7 +14,7 @@
 .header .nav li{
 	display: inline-block;
 	padding: 10px 10px;
-	width: 140px;
+	width: 115px;
     font-size: 18px;
     font-family:$nunito;
 	height: 35px;
