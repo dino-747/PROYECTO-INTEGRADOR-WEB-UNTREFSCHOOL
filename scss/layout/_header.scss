@@ -2,14 +2,13 @@
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
+	background-color: $color-3;
 }
 .header .logo img{
     height: 51px;
 }
-.header .nav{
-	background-color: $color-3;
-	width: 100vw;
-	justify-content: center;
+.header #menu, #menu-check{
+	display: none;
 }
 .header .nav li{
 	display: inline-block;

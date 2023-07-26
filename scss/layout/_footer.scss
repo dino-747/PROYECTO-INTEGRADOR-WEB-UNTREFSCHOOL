@@ -1,5 +1,5 @@
 .footer{
-    background-color: $color-5;
+    background-color: $color-1;
 }
 .foot-container{
     display: flex;
@@ -11,6 +11,8 @@
 .foot-container h4{
     font-family: $bela;
     font-size: 27px;
+    color: $color-2;
+    font-style: italic;
 }
 .foot-container .redes nav{
     margin: 20px 0;

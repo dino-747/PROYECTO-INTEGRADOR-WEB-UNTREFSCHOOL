@@ -1,0 +1,14 @@
+.form{
+    position:relative ;
+    margin-right: auto;
+    font-family: $nunito;
+}
+.titulo-form{
+    text-align: center;
+    margin-top: 4%;
+}
+.formulario{
+    border: 1px solid $color-3;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    font-family: $bela;
+}
