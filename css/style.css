@@ -330,6 +330,7 @@ li {
   .foot-container {
     flex-direction: column;
     align-items: center;
+    text-align: center;
   }
   .foot-container .redes li {
     display: block;
